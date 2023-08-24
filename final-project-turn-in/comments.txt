@@ -1,0 +1,59 @@
+(a) number of hours worked 
+- 1 hour learning about pygame
+- 10 min creating game window
+- 2 hours getting maze on screen
+- 10 min creating color palette 
+- 30 min making icons and characters
+- 10 min getting text on screen
+- 2 hours watching pygame tutorial
+- 3 hour other pygame tutorials 
+- 2 hours creating function to block player from 
+    moving through the maze barrier
+- 1 hour creating other functions
+- 1 hours debugging code
+Total: 13 hours
+
+(b) description of the documentation read, the videos watched, and the coding experiments tried 
+1. I followed a pygame tutorial on youtube.
+2. I explored the pygame.org website to learn what I can do in pygame. I
+3. I explored the numpy.org website to learn how to use NumPy.
+4. I read many other articles about pygame, matrixes, and NumPy.
+
+Articles/Videos Links:
+https://www.youtube.com/watch?v=FfWpgLFMI7w 
+https://www.raywenderlich.com/2795-beginning-game-programming-for-teens-with-python
+https://kivy.org/#home
+https://www.pygame.org/news
+https://stackoverflow.com/questions/17267395/how-to-take-screenshot-of-certain-part-of-screen-in-pygame
+https://www.geeksforgeeks.org/python-display-text-to-pygame-window/
+https://www.guru99.com/python-matrix.html
+https://stackoverflow.com/questions/64456226/visualizing-a-matrix-in-pygame-to-form-a-grid
+https://www.programiz.com/python-programming/matrix
+https://pythonprogramming.net/python-pixel-arrays/
+https://stackoverflow.com/questions/42747905/pygame-copying-the-screen-into-an-array
+https://stackoverflow.com/questions/58735162/how-to-get-color-of-each-pixel-on-a-screen-in-pygame
+https://www.kite.com/python/docs/pygame.Surface.get_at
+https://www.geeksforgeeks.org/python-list-vs-array-vs-tuple/
+https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_palette_at
+https://numpy.org/doc/stable/reference/generated/numpy.append.html 
+
+(c) description of the work finished during lesson 13
+The project I created was a maze game. The colors and characters 
+were inspired by the well known game, pac-man. There is a player 
+that is controlled by arrow keys; which, works by identifing a key 
+that is pressed then uses that key value in an if statement. There 
+are four if statements because there are four arrow keys. Each 
+statement changes the players x or y coordinate. 
+
+The maze was made using pygame.draw.rect(). The rectangles were made 
+one by one. I know there is a more efficient way to do it; however, 
+it worked effectively. The player is blocked from moving onto a pixel 
+that is the color of the maze barriers. It is blocked by changing the 
+pixel location by either 5, -5, 30, or -30 depending on what direction 
+player was moving when event happened. When player moves across exit, 
+text appears saying 'You Did It!'. 
+
+Things I will add in the future to make the game better: player is moved 
+to starting position if moves onto a ghost, dots through maze path that 
+disappear when player moves over them, have ghost eyes move, rotate player 
+to face the direction it is being moved, play again button, and a timer. 
